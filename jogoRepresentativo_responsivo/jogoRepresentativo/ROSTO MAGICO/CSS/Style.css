@@ -1,0 +1,103 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vh;
+    width: 100%;
+}
+
+.body {
+    background: linear-gradient(to bottom, #AFDAEA, #FFFFFF);
+    display: grid;
+    row-gap: 50px;
+    place-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+}
+
+.sub_body {
+    display: grid;
+    row-gap: 10px;
+    place-items: center;
+}
+
+#imagem_trocada {
+    align-items: center;
+    width: 259px;
+    height: 222px;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+}
+
+#LOGO {
+    width: 380px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.generico{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-button{
+    background: none;
+    width: 60px;
+    border: none;
+    margin-left: 20rem;
+}
+
+#imagem_todos {
+    width: 426px;
+}
+
+
+
+
+/* Make all elements responsive */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+}
